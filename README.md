@@ -6,7 +6,7 @@ The software is designed to support laboratory-scale plant phenotyping, research
 
 ---
 
-## ✨ Features
+## Features
 
 **Graphical User Interface (GUI)**
   - User-friendly interface for image-based leaf area estimation.
