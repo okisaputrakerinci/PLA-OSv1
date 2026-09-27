@@ -1,0 +1,36 @@
+{
+  "process": {
+    "image": "",
+    "data_folder": "D:/leaf-area/data/Raw",
+    "resize_long": null,
+    "save_prefix": "",
+    "out_folder": "D:/leaf-area/data/Raw/hasil",
+    "debug": false,
+    "save_steps": true,
+    "coin_mm": 25.0,
+    "manual_ppm": null,
+    "coin_is_dark": true,
+    "min_leaf_area_mm2": 300.0,
+    "white_balance": false,
+    "gamma": 1.0,
+    "clahe": false,
+    "gt_area_csv": "",
+    "camera_model": "unknown",
+    "lighting_condition": "unknown",
+    "background_color": "unknown",
+    "summary_out": "",
+    "seed": 30,
+    "threads": 0,
+    "log_hw": false
+  },
+  "evaluate": {
+    "results_folder": "D:/leaf-area/data/Raw/hasil",
+    "gt_area_csv": "D:/leaf-area/data/Raw/mask/gt_mask.csv",
+    "gt_mask_dir": "D:/leaf-area/data/Raw/mask",
+    "summary_out": "D:/leaf-area/data/Raw/evaluation_summary.csv"
+  },
+  "ui": {
+    "theme": "light",
+    "start_minimized": false
+  }
+}

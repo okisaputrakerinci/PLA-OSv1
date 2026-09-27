@@ -1,0 +1,6 @@
+# Runtime + build
+numpy
+opencv-python
+PySide6           # hapus baris ini jika tidak pakai GUI
+pyinstaller
+pyinstaller-hooks-contrib

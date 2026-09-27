@@ -1,0 +1,56 @@
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+.venv_cli/
+.venv_gui/
+.venv_x64_cli/
+.venv_x64_gui/
+.venv311/
+venv/
+env/
+
+# Build / distribution
+build/
+dist/
+installer/dist/
+
+# PyInstaller generated files
+*.spec
+
+# Installer / license files
+EULA.txt
+license_data.json
+*.exe
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs / temporary
+*.log
+*.tmp
+*.temp
+
+# Local data / experiment output
+*.csv
+*.xlsx
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment / secrets
+.env
+.env.*
+*.secret
+credentials/
+secrets/
